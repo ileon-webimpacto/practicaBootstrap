@@ -13,6 +13,7 @@
 	font-weight: 500;
 	line-height: 20px;
 }
+
 .shape {	
     height: 16px;	
     width: 18px;
@@ -26,7 +27,16 @@
     font-weight: 500;	
     line-height: 18px;
 }
-
+.dias-plazo-devo {
+	height: 20px;
+	width: 287px;
+	color: #FFFFFF;
+	font-family: "Brandon Grotesque";
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+	text-align: right;
+}
 .fill-1 {	
     height: 18.88px;	
     width: 20.27px;
@@ -42,6 +52,9 @@
 }
 .btnMenu{
     border: 0px;
+}
+#navbarDropdown{
+    color: black;
 }
 .busca {	
     height: 35px;	
@@ -82,6 +95,7 @@
     text-align: center;
 }
 .rebajas-70 {	
+    padding-top: 20px;
     height: 52px;	
     width: 100%;	
     color: #4A4A4A;	
@@ -117,4 +131,24 @@
 	font-weight: bold;
 	line-height: 20px;
 	text-align: center;
+}
+.cuenta-invi-dos{
+    display: none;
+}
+@media(max-width: 730px){
+    .necesitas-ayuda-91{
+        display: none;
+    }
+    .dias-plazo-devo {
+        display: none;
+    }
+    
+}
+@media(max-width:990px){
+    .cuenta-invi{
+        display: none;
+    }
+    .cuenta-invi-dos{
+        display:inline-block;
+    }
 }

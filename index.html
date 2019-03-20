@@ -19,70 +19,87 @@
     </head>
 
     <body>
-        <!--
-        <div class="col-xs-12 rectangle-24">
-            <p class="envio-gratis-a-parti">
-                Envío Gratis a partir de 45€
-            </p>
-        </div> 
-        -->
-        <div class="col-xs-12 rectangle-24">
-            <p class="necesitas-ayuda-91">
-                <img src="img/delivery-box.svg" class="shape">
-                ¿Necesitas ayuda? 919 019 101 | 932 711 184
-            </p>
-            <p class="envio-gratis-a-parti">
-                <img src="img/delivery-box.svg" class="shape">
-                Envío Gratis a partir de 45€
-            </p>
-        </div> 
-        <!-- NavBar-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <header class="row">
+            <!--Barra Gris-->
+            <div class="d-flex justify-content-around col-xs-12 rectangle-24">
+                <p class="text-left necesitas-ayuda-91">
+                    <img src="img/phone-call (3).svg" class="shape">
+                    ¿Necesitas ayuda? 919 019 101 | 932 711 184
+                </p>
+                <p class="text-center envio-gratis-a-parti">
+                    <img src="img/delivery-box.svg" class="shape">
+                    Envío Gratis a partir de 45€
+                </p>
+                <p class="text-right dias-plazo-devo">
+                    <img src="img/devolucion.svg" class="shape">
+                    30 dias - plazo devolucion gratituta
+                </p>
+            </div> 
+            <!-- NavBar-->
+            <div class="col-4 col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <img src="img/menu_mobile.svg" >
                     </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">SUPLEMENTOS <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">PLANTAS <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">ALIMENTACIÓN <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">COSMÉTICA <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">HIGIENE <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">MAMÁ Y BEBE <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">DEPORTE <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">HUERTO <span class="sr-only">(current)</span></a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">SUPLEMENTOS <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">PLANTAS <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">ALIMENTACIÓN <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">COSMÉTICA <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">HIGIENE <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">MAMÁ Y BEBE <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">DEPORTE <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">HUERTO <span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <img src="img/telephone.svg">
-            <img src="img/logo_naturitas.svg" class="fill-7"> 
-            <img src="img/icono cuenta.svg">  
-            <img src="img/cart.svg" >
-        </nav>
-        <form >
-            <div class="input-group form-group">
-                <input class="busca form-control" type="search" placeholder="¿Qué buscas hoy? Encuentra entr más de 30 mil productos..." aria-label="Search">
-                <button class=" btnSearch" type="submit">
-                    <img src="img/search.svg">
-                </button>
+            <div class="col-8 col-sm-6 col-md-8">
+                <div class="row">
+                    <div class="col-1 col-sm-2 col-md-2"><img src="img/telephone.svg"></div>
+                    <div class="col-6 col-sm-6 col-md-4"><img src="img/logo_naturitas.svg" class="fill-7"></div>
+                    <div class="col-2 col-sm-2 col-md-3 nav-item dropdown cuenta-invi-dos">
+                            <img src="img/icono cuenta.svg">
+                    </div>
+                    <div class="col-2 col-sm-2 nav-item dropdown cuenta-invi">
+                        
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/icono cuenta.svg">Mi cuenta</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                        </div>                        
+                    </div>
+                    <div class="col-2 col-sm-2 col-md-3"><img src="img/cart.svg" ></div>
+                </div>
             </div>
-        </form>
+            <div class="col-12 col-sm-6 col-md-4">     
+                <form>
+                    <div class="input-group form-group">
+                        <input class="busca form-control" type="search" placeholder="¿Qué buscas hoy? Encuentra entr más de 30 mil productos..." aria-label="Search">
+                        <button class=" btnSearch" type="submit">
+                            <img src="img/search.svg">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </header>
         <div class="col-xs-12 rectangle-18 ">
             <p class="promociones-de-invi">
                 <span class="promo">¡Promociones de invierno!</span>  
@@ -96,6 +113,6 @@
         <div>
             <img src="img/bannerp_01_mob.jpg">
         </div>
-        
+    
     </body>
 </html>
