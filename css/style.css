@@ -1,8 +1,21 @@
 .rectangle-24 {	
     height: 25px;	
-    width: 320px;	
+    width: 100%;	
     background-color: #808080;
     text-align: center;
+}
+.necesitas-ayuda-91 {
+	height: 19px;
+	width: 287px;
+	color: #FFFFFF;
+	font-family: "Brandon Grotesque";
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 20px;
+}
+.shape {	
+    height: 16px;	
+    width: 18px;
 }
 .envio-gratis-a-parti {	
     /*height: 18px;	
@@ -13,10 +26,7 @@
     font-weight: 500;	
     line-height: 18px;
 }
-.shape {	
-    height: 16px;	
-    width: 18px;
-}
+
 .fill-1 {	
     height: 18.88px;	
     width: 20.27px;
@@ -30,6 +40,81 @@
 	height: 22.08px;
 	width: 95.43px;
 }
-.btn{
+.btnMenu{
     border: 0px;
+}
+.busca {	
+    height: 35px;	
+    width: 312px;	
+    border: 1px solid #EBE7E4;	
+    background-color: #FBFAF9;
+}
+.btnSearch {	
+    height: 35px;	
+    width: 35px;	
+    background-color: #5CB8A3;
+}
+.rectangle-18 {
+	height: 25px;
+	width: 100%;
+	background-color: #EE988B;
+}
+
+.promociones-de-invi {
+	height: 16px;
+	width: 100%;
+	color: #FFFFFF;
+	font-family: "Brandon Grotesque";
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+}
+.promo{
+    font-weight: bold;
+}
+.image-fondo{
+    background-image: url("../img/Montaje_productos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: 100% ;
+    text-align: center;
+}
+.rebajas-70 {	
+    height: 52px;	
+    width: 100%;	
+    color: #4A4A4A;	
+    font-family: "Brandon Grotesque";	
+    font-size: 36px;	
+    font-weight: bold;	
+    line-height: 52px;	
+    text-align: center;
+}
+.hasta-50-en-product {	
+    height: 20px;	
+    width: 284px;	
+    color: #4A4A4A;	
+    font-family: "Brandon Grotesque";	
+    font-size: 14px;	
+    font-weight: 500;	
+    line-height: 20px;	
+    text-align: center;
+}
+.rectangle-7 {
+	height: 37px;
+	width: 129.9px;
+	border-radius: 6px;
+	background-color: #5CB8A3;
+	box-shadow: 0 2px 0 0 #529888;
+}
+.compra-ya {
+	height: 20px;
+	width: 89.25px;
+	color: #FFFFFF;
+	font-family: "Brandon Grotesque";
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
 }
