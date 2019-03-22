@@ -5,7 +5,7 @@
     text-align: center;
 }
 .necesitas-ayuda-91 {
-	height: 19px;
+	height: 10px;
 	width: 287px;
 	color: #FFFFFF;
 	font-family: "Brandon Grotesque";
@@ -28,7 +28,7 @@
     line-height: 18px;
 }
 .dias-plazo-devo {
-	height: 20px;
+	height: 30px;
 	width: 287px;
 	color: #FFFFFF;
 	font-family: "Brandon Grotesque";
@@ -50,6 +50,11 @@
 	height: 22.08px;
 	width: 95.43px;
 }
+.fill-7-2 {
+    margin-bottom: 15px;
+    height: 30.53px;
+    width: 134.3px;
+}
 .btnMenu{
     border: 0px;
 }
@@ -61,11 +66,30 @@
     width: 312px;	
     border: 1px solid #EBE7E4;	
     background-color: #FBFAF9;
+    padding: 10px;
+}
+.busca2 {	
+    height: 35px;	
+    width: 312px;	
+    border: 1px solid #EBE7E4;	
+    background-color: #FBFAF9;
+    padding: 10px;
+    font-weight: bold;
+
+}
+.rectangle {	
+    width: 40px;	
+    background-color: #5CB8A3;
 }
 .btnSearch {	
     height: 35px;	
     width: 35px;	
     background-color: #5CB8A3;
+}
+.btnSearch2 {		
+    width: 42px;	
+    background-color: #5CB8A3;
+    border: none;
 }
 .rectangle-18 {
 	height: 25px;
@@ -107,7 +131,7 @@
 }
 .hasta-50-en-product {	
     height: 20px;	
-    width: 284px;	
+    width: 100%;	
     color: #4A4A4A;	
     font-family: "Brandon Grotesque";	
     font-size: 14px;	
@@ -120,7 +144,8 @@
 	width: 129.9px;
 	border-radius: 6px;
 	background-color: #5CB8A3;
-	box-shadow: 0 2px 0 0 #529888;
+    box-shadow: 0 2px 0 0 #529888;
+    border: none;
 }
 .compra-ya {
 	height: 20px;
@@ -130,11 +155,81 @@
 	font-size: 14px;
 	font-weight: bold;
 	line-height: 20px;
-	text-align: center;
+    text-align: center;
 }
 .cuenta-invi-dos{
     display: none;
 }
+.rojo{
+    color: rgb(243, 134, 119);
+
+}
+.navVisible{
+    display: inline;
+}
+.navInvi{
+    display: none;
+}
+.buscaVisible{
+    padding: 10px;
+    display:inline;
+}
+.imgVisible{
+    display: inline;
+}
+.imgInvi{
+    display: none;
+}
+
+.buscaInvi{
+    display: none;
+}
+.logo-izquierda{
+    float: left;
+    border: 5px solid red;
+}
+.espacioBusca{
+    margin-top: 15px;
+}
+.rectangle-13 {
+	height: 50px;
+	width: 115px;
+	border: 1px solid #F2F2F2;
+	border-radius: 6px;
+}
+.mask {
+	height: 100px;
+	width: 320px;
+	border-radius: 6px;
+	background-color: #F5F5F5;
+}
+.bannerCentrado{
+    width: 100%;
+    background-color: white;
+    margin-top:2%;
+    text-align: center;
+}
+.bannerCentrado2{
+    width: 50%;
+    background-color: white;
+    margin-top:2%;
+    text-align: center;
+}
+.bannerArriba{
+    margin-bottom: 2%;
+}
+.banVisible{
+    display: inline;
+}
+.banInvi{
+    display: none;
+    margin-top: 2%;
+}
+.busca::placeholder {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
 @media(max-width: 730px){
     .necesitas-ayuda-91{
         display: none;
@@ -150,5 +245,72 @@
     }
     .cuenta-invi-dos{
         display:inline-block;
+    }
+    .navVisible{
+        display: none;
+    }
+    .navInvi{
+        display: inline;
+    }
+    .buscaVisible{
+        padding: 10px;
+        display:none;
+    }
+    .buscaInvi{
+        display: inline;
+    }
+    .imgVisible{
+        display: none;
+    }
+    .imgInvi{
+        display: inline;
+    }
+    .banVisible{
+        display: none;
+    }
+    .banInvi{
+        display: inline;
+    }
+    
+    
+}
+@media(min-width:991px){
+    .promociones-de-invi{
+        font-size: 1.2em;
+    }
+    .promocion-negrita{
+        font-weight: bold;
+    }
+    .bannerCentrado{
+        width: 100%;
+        background-color: white;
+        margin-top:2%;
+        text-align: center;
+    }
+    .bannerCentrado2{
+        width: 50%;
+    }
+    .banVisible{
+        display: inline-block;
+    }
+    .banInvi{
+        display: none;
+    }
+    .mask {
+        width: 700px;
+
+    }
+    .rebajas-70{
+        font-size: 3.5em;
+    }
+    .hasta-50-en-product{
+        font-size: 1.2em;
+    }
+    
+    
+}
+@media(min-width:1140){
+    .bannerCentrado2{
+        width: 50%;
     }
 }
